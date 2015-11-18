@@ -26,18 +26,21 @@ Build from source:
 2) NFC web server running on node.js
 
 Requirements:
-1) Node.js : wget http://node-arm.herokuapp.com/node_latest_armhf.deb && sudo dpkg -i node_latest_armhf.deb
-2) cd to "*/nfc/server" directory
-3) sudo npm install
+
+    1) Node.js : wget http://node-arm.herokuapp.com/node_latest_armhf.deb && sudo dpkg -i node_latest_armhf.deb
+    2) cd to "*/nfc/server" directory
+    3) sudo npm install
 
 Running web server
-1) cd to "*/nfc/server"
-2) sudo node nfcserver.js
+
+    1) cd to "*/nfc/server"
+    2) sudo node nfcserver.js
 
 That's it.
 
 To test:
-1) Open web browser and go to "http:<raspberrypi_ip_address>:3000"
+
+    1) Open web browser and go to "http:<raspberrypi_ip_address>:3000"
 
 Run at boot (assuming nfc binary is installed in "/usr/bin" and nfcserver.js and etc. is in "~/nfc/server":
 
