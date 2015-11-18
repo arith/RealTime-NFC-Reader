@@ -1,4 +1,5 @@
 Two program exists for this simple demo:
+
 1) NFC explore daemon
 
 Requirements:
@@ -45,6 +46,7 @@ To test:
 Run at boot (assuming nfc binary is installed in "/usr/bin" and nfcserver.js and etc. is in "~/nfc/server":
 
 On terminal:
+
 1) sudo nano /etc/init/rc.local
 
         #!/bin/sh -e
